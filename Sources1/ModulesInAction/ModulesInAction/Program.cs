@@ -22,7 +22,7 @@ namespace ModulesInAction
                 Console.WriteLine(t.FullName);
             //получаем тип данных из сборки
             Type Person = mod.GetType("SampleLibrary.Person") as Type;
-            //создаём объект полученного типа данныъ
+            //создаём объект полученного типа данных
             object person =  Activator.CreateInstance(Person,new object[]{"Иван", "Иванов", 30});
             Console.WriteLine();
             //вызываем метод Print от созданного объекта

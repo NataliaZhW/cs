@@ -80,7 +80,8 @@ namespace ProcessManipulation
         {
             SendMessage(Handle, WM_SETTEXT, 0, text);
         }
-        /*метод, получающий PID родительского процесса (использует WMI)*/
+        /*метод, получающий PID родительского процесса (использует WMI)
+         создает объект процесса и получает его свойства*/
         int GetParentProcessId(int Id)
         {
             int parentId = 0;

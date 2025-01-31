@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ModulesInAction\Backup\SampleLibrary\bin\Debug\SampleLibrary.dll
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ModulesInAction\Backup\SampleLibrary\bin\Debug\SampleLibrary.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ModulesInAction\Backup\SampleLibrary\obj\Debug\SampleLibrary.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ModulesInAction\Backup\SampleLibrary\obj\Debug\SampleLibrary.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ModulesInAction\Backup\SampleLibrary\obj\Debug\SampleLibrary.dll
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ModulesInAction\Backup\SampleLibrary\obj\Debug\SampleLibrary.pdb

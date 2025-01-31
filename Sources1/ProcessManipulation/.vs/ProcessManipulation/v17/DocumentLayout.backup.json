@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\ProcessManipulation\\",
+  "WorkspaceRootPath": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4B51536A-C8C0-48DF-9124-0AD04E4B75DA}|ProcessManipulation\\ProcessManipulation.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources1\\processmanipulation\\processmanipulation\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4B51536A-C8C0-48DF-9124-0AD04E4B75DA}|ProcessManipulation\\ProcessManipulation.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\processmanipulation\\processmanipulation\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4B51536A-C8C0-48DF-9124-0AD04E4B75DA}|ProcessManipulation\\ProcessManipulation.csproj|solutionrelative:processmanipulation\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B51536A-C8C0-48DF-9124-0AD04E4B75DA}|ProcessManipulation\\ProcessManipulation.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\processmanipulation\\processmanipulation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B51536A-C8C0-48DF-9124-0AD04E4B75DA}|ProcessManipulation\\ProcessManipulation.csproj|solutionrelative:processmanipulation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A639A3F-5527-4252-B295-0C0A54CFD207}|ChildProcess2\\ChildProcess2.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\processmanipulation\\childprocess2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0A639A3F-5527-4252-B295-0C0A54CFD207}|ChildProcess2\\ChildProcess2.csproj|solutionrelative:childprocess2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0A639A3F-5527-4252-B295-0C0A54CFD207}|ChildProcess2\\ChildProcess2.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\processmanipulation\\childprocess2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0A639A3F-5527-4252-B295-0C0A54CFD207}|ChildProcess2\\ChildProcess2.csproj|solutionrelative:childprocess2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCEC968D-7623-45A9-9237-04474E6256EB}|ChildProcess\\ChildProcess.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\processmanipulation\\childprocess\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BCEC968D-7623-45A9-9237-04474E6256EB}|ChildProcess\\ChildProcess.csproj|solutionrelative:childprocess\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B51536A-C8C0-48DF-9124-0AD04E4B75DA}|ProcessManipulation\\ProcessManipulation.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\processmanipulation\\processmanipulation\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4B51536A-C8C0-48DF-9124-0AD04E4B75DA}|ProcessManipulation\\ProcessManipulation.csproj|solutionrelative:processmanipulation\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +34,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 14,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ChildProcess2\\Program.cs",
+              "RelativeDocumentMoniker": "ChildProcess2\\Program.cs",
+              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ChildProcess2\\Program.cs",
+              "RelativeToolTip": "ChildProcess2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:39:37.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ChildProcess2\\Form1.cs",
+              "RelativeDocumentMoniker": "ChildProcess2\\Form1.cs",
+              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ChildProcess2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ChildProcess2\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:39:34.995Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ChildProcess\\Form1.cs",
+              "RelativeDocumentMoniker": "ChildProcess\\Form1.cs",
+              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ChildProcess\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ChildProcess\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:39:24.849Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ProcessManipulation\\Program.cs",
+              "RelativeDocumentMoniker": "ProcessManipulation\\Program.cs",
+              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ProcessManipulation\\Program.cs",
+              "RelativeToolTip": "ProcessManipulation\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwBAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:38:58.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ProcessManipulation\\MainWindow.cs",
+              "RelativeDocumentMoniker": "ProcessManipulation\\MainWindow.cs",
+              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ProcessManipulation\\MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "ProcessManipulation\\MainWindow.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T12:37:45.557Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.cs",
-              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\ProcessManipulation\\ProcessManipulation\\MainWindow.cs",
+              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ProcessManipulation\\MainWindow.cs",
               "RelativeDocumentMoniker": "ProcessManipulation\\MainWindow.cs",
-              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\ProcessManipulation\\ProcessManipulation\\MainWindow.cs*",
-              "RelativeToolTip": "ProcessManipulation\\MainWindow.cs*",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAswGAAAAAtAAAAAAAAAA==",
+              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ProcessManipulation\\ProcessManipulation\\MainWindow.cs",
+              "RelativeToolTip": "ProcessManipulation\\MainWindow.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAApwMcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T14:30:20.399Z",
               "EditorCaption": ""
