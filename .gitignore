@@ -36,3 +36,5 @@ Sources2/InterlockedSync/.vs/InterlockedSync/FileContentIndex/57dcc9c6-33c2-4365
 Sources2/LockSync/.vs/LockSync/FileContentIndex/36d16788-53b9-490a-9268-e40e7cffffb7.vsidx
 Sources2/DeadLock/.vs/DeadLock/FileContentIndex/06bb1cb2-df06-45bf-b007-e5dc9abc3480.vsidx
 *.vsidx
+/Sources1/AppDomainDynamicUnload/.vs/AppDomainDynamicUnload/v17/.suo
+/Sources1/AppDomainDynamicUnload/Backup/.vs/AppDomainDynamicUnload/v17/.suo
