@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainDynamicUnload\Backup\AppDomainDynaimcUnload\bin\Debug\AppDomainSample.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainDynamicUnload\Backup\AppDomainDynaimcUnload\bin\Debug\AppDomainSample.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainDynamicUnload\Backup\AppDomainDynaimcUnload\obj\Debug\AppDomainDynamicUnload.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainDynamicUnload\Backup\AppDomainDynaimcUnload\obj\Debug\AppDomainDynamicUnload.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainDynamicUnload\Backup\AppDomainDynaimcUnload\obj\Debug\AppDomainSample.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainDynamicUnload\Backup\AppDomainDynaimcUnload\obj\Debug\AppDomainSample.pdb
