@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadSample\Backup\ThreadSample\bin\Debug\ThreadSample.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadSample\Backup\ThreadSample\bin\Debug\ThreadSample.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadSample\Backup\ThreadSample\obj\Debug\ThreadSample.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadSample\Backup\ThreadSample\obj\Debug\ThreadSample.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadSample\Backup\ThreadSample\obj\Debug\ThreadSample.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadSample\Backup\ThreadSample\obj\Debug\ThreadSample.pdb

@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ThreadSample\\Backup\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B07D6F2B-1D4C-4D02-8AFA-C4FCEB2E4A88}|ThreadSample2\\ThreadSample2.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\threadsample\\backup\\threadsample2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B07D6F2B-1D4C-4D02-8AFA-C4FCEB2E4A88}|ThreadSample2\\ThreadSample2.csproj|solutionrelative:threadsample2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8F621E-4973-4EAF-906F-4DF5704648E4}|ThreadSample\\ThreadSample.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\threadsample\\backup\\threadsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8F621E-4973-4EAF-906F-4DF5704648E4}|ThreadSample\\ThreadSample.csproj|solutionrelative:threadsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ThreadSample\\Backup\\ThreadSample2\\Program.cs",
+              "RelativeDocumentMoniker": "ThreadSample2\\Program.cs",
+              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ThreadSample\\Backup\\ThreadSample2\\Program.cs",
+              "RelativeToolTip": "ThreadSample2\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T13:07:37.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ThreadSample\\Backup\\ThreadSample\\Program.cs",
+              "RelativeDocumentMoniker": "ThreadSample\\Program.cs",
+              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\ThreadSample\\Backup\\ThreadSample\\Program.cs",
+              "RelativeToolTip": "ThreadSample\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:50:39.212Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
