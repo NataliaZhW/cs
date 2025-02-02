@@ -27,10 +27,22 @@ namespace TextDrawer
         }
         public void SetText(string text)
         {
-            /*сохраняем новое значение перпеменной SourceText*/
-            SourceText = text;
-            /*инициируем перерисовку окна*/
-            Panel1_Paint(panel1, new PaintEventArgs(panel1.CreateGraphics(), panel1.ClientRectangle));
+            
+            if (this.InvokeRequired)
+            {
+                this.Invoke(new Action<string>(SetText), text);
+            }
+            else
+            {
+                /*сохраняем новое значение переменной SourceText*/
+                /*если тект пустой и перерисовка окна не делается, передаём пробел, 
+                    чтобы окно всё-таки перерисовалось, вместо пробела можно 
+                    вставить нашу начальную стоку "No text was added!"*/
+                if (text == "") SourceText = " "; else SourceText = text;
+                /*инициируем перерисовку окна*/
+                Panel1_Paint(panel1, new PaintEventArgs(panel1.CreateGraphics(), panel1.ClientRectangle));
+            }
+
         }
         private void Panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -65,10 +77,19 @@ namespace TextDrawer
         }
         public void Move(Point newLocation, int width)
         {
-            /*устанавливаем новое значение позиции окна*/
-            this.Location = newLocation;
-            /*устанавливаем новое значение ширины окна*/
-            this.Width = width;
+            if (this.InvokeRequired)
+            {
+                this.Invoke(new Action<Point, int>(Move), newLocation, width);
+            }
+            else
+            {
+                /*устанавливаем новое значение позиции окна*/
+                this.Location = newLocation;
+                /*устанавливаем новое значение ширины окна*/
+                this.Width = width;
+            }
         }
     }
 }
+
+

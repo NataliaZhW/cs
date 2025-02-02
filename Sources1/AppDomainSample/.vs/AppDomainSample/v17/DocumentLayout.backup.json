@@ -1,20 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\AppDomainSample\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CAB11A82-5417-4993-BDA5-B17A677972E1}|TextDrawer\\TextDrawer.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources1\\appdomainsample\\textdrawer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAB11A82-5417-4993-BDA5-B17A677972E1}|TextDrawer\\TextDrawer.csproj|solutionrelative:textdrawer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C025957-C6FC-499A-9426-89C50F2594A3}|AppDomainSample\\AppDomainSample.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources1\\appdomainsample\\appdomainsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C025957-C6FC-499A-9426-89C50F2594A3}|AppDomainSample\\AppDomainSample.csproj|solutionrelative:appdomainsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B75F2F47-5DD2-4A26-8F2C-ADC3FDCFF54C}|TextWindow\\TextWindow.csproj|c:\\users\\\u0435\u0444\u0438\u043C\u043E\u0432\\downloads\\cs\\sources1\\appdomainsample\\textwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B75F2F47-5DD2-4A26-8F2C-ADC3FDCFF54C}|TextWindow\\TextWindow.csproj|solutionrelative:textwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -22,50 +9,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": -1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\AppDomainSample\\AppDomainSample\\Program.cs",
-              "RelativeDocumentMoniker": "AppDomainSample\\Program.cs",
-              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\AppDomainSample\\AppDomainSample\\Program.cs",
-              "RelativeToolTip": "AppDomainSample\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwEQAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T15:16:20.483Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\AppDomainSample\\TextDrawer\\Form1.cs",
-              "RelativeDocumentMoniker": "TextDrawer\\Form1.cs",
-              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\AppDomainSample\\TextDrawer\\Form1.cs",
-              "RelativeToolTip": "TextDrawer\\Form1.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAQwCkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T15:16:01.05Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\AppDomainSample\\TextWindow\\Form1.cs",
-              "RelativeDocumentMoniker": "TextWindow\\Form1.cs",
-              "ToolTip": "C:\\Users\\\u0415\u0444\u0438\u043C\u043E\u0432\\Downloads\\cs\\Sources1\\AppDomainSample\\TextWindow\\Form1.cs",
-              "RelativeToolTip": "TextWindow\\Form1.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBIAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-24T15:15:53.77Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             }
           ]
         }

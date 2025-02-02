@@ -1,0 +1,8 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextWindow\bin\Debug\TextWindow.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextWindow\bin\Debug\TextWindow.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextWindow\obj\Debug\TextWindow.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextWindow\obj\Debug\TextWindow.Properties.Resources.resources
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextWindow\obj\Debug\TextWindow.csproj.GenerateResource.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextWindow\obj\Debug\TextWindow.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextWindow\obj\Debug\TextWindow.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextWindow\obj\Debug\TextWindow.pdb

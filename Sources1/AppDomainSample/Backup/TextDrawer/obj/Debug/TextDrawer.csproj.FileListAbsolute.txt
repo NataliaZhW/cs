@@ -1,0 +1,9 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\bin\Debug\TextDrawer.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\bin\Debug\TextDrawer.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\obj\Debug\TextDrawer.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\obj\Debug\TextDrawer.Form1.resources
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\obj\Debug\TextDrawer.Properties.Resources.resources
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\obj\Debug\TextDrawer.csproj.GenerateResource.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\obj\Debug\TextDrawer.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\obj\Debug\TextDrawer.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\AppDomainSample\Backup\TextDrawer\obj\Debug\TextDrawer.pdb
