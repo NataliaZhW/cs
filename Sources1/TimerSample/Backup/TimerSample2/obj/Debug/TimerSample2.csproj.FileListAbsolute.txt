@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources1\TimerSample\Backup\TimerSample2\bin\Debug\TimerSample2.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\TimerSample\Backup\TimerSample2\bin\Debug\TimerSample2.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources1\TimerSample\Backup\TimerSample2\obj\Debug\TimerSample2.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\TimerSample\Backup\TimerSample2\obj\Debug\TimerSample2.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\TimerSample\Backup\TimerSample2\obj\Debug\TimerSample2.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\TimerSample\Backup\TimerSample2\obj\Debug\TimerSample2.pdb
