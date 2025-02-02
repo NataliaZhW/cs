@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadPriority\Backup\ThreadPriority\bin\Debug\ThreadPriority.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadPriority\Backup\ThreadPriority\bin\Debug\ThreadPriority.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadPriority\Backup\ThreadPriority\obj\Debug\ThreadPriority.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadPriority\Backup\ThreadPriority\obj\Debug\ThreadPriority.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadPriority\Backup\ThreadPriority\obj\Debug\ThreadPriority.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\ThreadPriority\Backup\ThreadPriority\obj\Debug\ThreadPriority.pdb
