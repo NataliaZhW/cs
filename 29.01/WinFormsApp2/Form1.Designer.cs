@@ -39,9 +39,10 @@
             // 
             // buttonStartNumbers
             // 
-            buttonStartNumbers.Location = new Point(95, 85);
+            buttonStartNumbers.Location = new Point(51, 10);
+            buttonStartNumbers.Margin = new Padding(2, 1, 2, 1);
             buttonStartNumbers.Name = "buttonStartNumbers";
-            buttonStartNumbers.Size = new Size(150, 46);
+            buttonStartNumbers.Size = new Size(81, 22);
             buttonStartNumbers.TabIndex = 0;
             buttonStartNumbers.Text = "button1";
             buttonStartNumbers.UseVisualStyleBackColor = true;
@@ -49,9 +50,10 @@
             // 
             // buttonStartLetters
             // 
-            buttonStartLetters.Location = new Point(317, 85);
+            buttonStartLetters.Location = new Point(182, 10);
+            buttonStartLetters.Margin = new Padding(2, 1, 2, 1);
             buttonStartLetters.Name = "buttonStartLetters";
-            buttonStartLetters.Size = new Size(150, 46);
+            buttonStartLetters.Size = new Size(81, 22);
             buttonStartLetters.TabIndex = 1;
             buttonStartLetters.Text = "button1";
             buttonStartLetters.UseVisualStyleBackColor = true;
@@ -59,9 +61,10 @@
             // 
             // buttonStartSymbols
             // 
-            buttonStartSymbols.Location = new Point(591, 83);
+            buttonStartSymbols.Location = new Point(317, 10);
+            buttonStartSymbols.Margin = new Padding(2, 1, 2, 1);
             buttonStartSymbols.Name = "buttonStartSymbols";
-            buttonStartSymbols.Size = new Size(150, 46);
+            buttonStartSymbols.Size = new Size(81, 22);
             buttonStartSymbols.TabIndex = 2;
             buttonStartSymbols.Text = "button2";
             buttonStartSymbols.UseVisualStyleBackColor = true;
@@ -70,42 +73,46 @@
             // comboBoxNumberPriority
             // 
             comboBoxNumberPriority.FormattingEnabled = true;
-            comboBoxNumberPriority.Location = new Point(38, 163);
+            comboBoxNumberPriority.Location = new Point(22, 34);
+            comboBoxNumberPriority.Margin = new Padding(2, 1, 2, 1);
             comboBoxNumberPriority.Name = "comboBoxNumberPriority";
-            comboBoxNumberPriority.Size = new Size(242, 40);
+            comboBoxNumberPriority.Size = new Size(132, 23);
             comboBoxNumberPriority.TabIndex = 3;
             // 
             // comboBoxLetterPriority
             // 
             comboBoxLetterPriority.FormattingEnabled = true;
-            comboBoxLetterPriority.Location = new Point(260, 243);
+            comboBoxLetterPriority.Location = new Point(158, 34);
+            comboBoxLetterPriority.Margin = new Padding(2, 1, 2, 1);
             comboBoxLetterPriority.Name = "comboBoxLetterPriority";
-            comboBoxLetterPriority.Size = new Size(242, 40);
+            comboBoxLetterPriority.Size = new Size(132, 23);
             comboBoxLetterPriority.TabIndex = 4;
             // 
             // comboBoxSymbolPriority
             // 
             comboBoxSymbolPriority.FormattingEnabled = true;
-            comboBoxSymbolPriority.Location = new Point(532, 335);
+            comboBoxSymbolPriority.Location = new Point(294, 34);
+            comboBoxSymbolPriority.Margin = new Padding(2, 1, 2, 1);
             comboBoxSymbolPriority.Name = "comboBoxSymbolPriority";
-            comboBoxSymbolPriority.Size = new Size(242, 40);
+            comboBoxSymbolPriority.Size = new Size(132, 23);
             comboBoxSymbolPriority.TabIndex = 5;
             // 
             // textBoxOutput
             // 
-            textBoxOutput.Location = new Point(86, 323);
+            textBoxOutput.Location = new Point(22, 77);
+            textBoxOutput.Margin = new Padding(2, 1, 2, 1);
             textBoxOutput.Multiline = true;
             textBoxOutput.Name = "textBoxOutput";
             textBoxOutput.ReadOnly = true;
             textBoxOutput.ScrollBars = ScrollBars.Vertical;
-            textBoxOutput.Size = new Size(200, 78);
+            textBoxOutput.Size = new Size(110, 124);
             textBoxOutput.TabIndex = 6;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(13F, 32F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(431, 211);
             Controls.Add(textBoxOutput);
             Controls.Add(comboBoxSymbolPriority);
             Controls.Add(comboBoxLetterPriority);
@@ -113,6 +120,7 @@
             Controls.Add(buttonStartSymbols);
             Controls.Add(buttonStartLetters);
             Controls.Add(buttonStartNumbers);
+            Margin = new Padding(2, 1, 2, 1);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;

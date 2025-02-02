@@ -78,7 +78,8 @@ namespace WinFormsApp2
 
         private void UpdateTextBox(string text)
         {
-            if (textBoxOutput.InvokeRequired)
+            if (textBoxOutput.InvokeRequired)//возвращает true если метод
+                                             //вызывается не из потока создавшего поток управления
             {
                 textBoxOutput.Invoke(new Action<string>(UpdateTextBox), text);
             }
