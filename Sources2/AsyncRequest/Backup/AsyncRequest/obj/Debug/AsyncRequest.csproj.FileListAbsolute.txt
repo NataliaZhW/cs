@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncRequest\Backup\AsyncRequest\bin\Debug\AsyncRequest.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncRequest\Backup\AsyncRequest\bin\Debug\AsyncRequest.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncRequest\Backup\AsyncRequest\obj\Debug\AsyncRequest.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncRequest\Backup\AsyncRequest\obj\Debug\AsyncRequest.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncRequest\Backup\AsyncRequest\obj\Debug\AsyncRequest.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncRequest\Backup\AsyncRequest\obj\Debug\AsyncRequest.pdb

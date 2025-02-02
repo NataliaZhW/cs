@@ -19,7 +19,7 @@ namespace AsyncRequest
 
             IAsyncResult ar = fs.BeginRead(data, 0, data.Length, null, null);
 
-            while (!ar.AsyncWaitHandle.WaitOne(1, false))// блокировка потока на 1 мс
+            while (!ar.AsyncWaitHandle.WaitOne(1, false))
             {
                 Console.WriteLine("Операция не завершена, ожидайте...");
             }
