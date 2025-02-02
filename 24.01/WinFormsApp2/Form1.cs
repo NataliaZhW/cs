@@ -1,5 +1,5 @@
 using System;
-using System.Diagnostics;
+using System.Diagnostics; //для получения списка процессов
 using System.Windows.Forms;
 
 namespace WinFormsApp2
@@ -24,7 +24,7 @@ namespace WinFormsApp2
             RefreshProcessList();
         }
 
-        private void RefreshProcessList()
+        private void RefreshProcessList() //обновление списка процессов
         {
             listBoxProcesses.Items.Clear();
             Process[] processes = Process.GetProcesses();
