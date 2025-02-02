@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncReadCallBack\Backup\AsyncReadCallBack\bin\Debug\AsyncReadCallBack.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncReadCallBack\Backup\AsyncReadCallBack\bin\Debug\AsyncReadCallBack.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncReadCallBack\Backup\AsyncReadCallBack\obj\Debug\AsyncReadCallBack.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncReadCallBack\Backup\AsyncReadCallBack\obj\Debug\AsyncReadCallBack.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncReadCallBack\Backup\AsyncReadCallBack\obj\Debug\AsyncReadCallBack.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\AsyncReadCallBack\Backup\AsyncReadCallBack\obj\Debug\AsyncReadCallBack.pdb

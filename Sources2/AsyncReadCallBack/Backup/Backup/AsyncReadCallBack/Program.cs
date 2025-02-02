@@ -11,9 +11,9 @@ namespace AsyncReadCallBack
 
         static void Main(string[] args)
         {
-            AsyncReadOneFileCallBack();
+            //AsyncReadOneFileCallBack();
             //AsyncReadOneFileCallBackAnonimus();
-            //AsyncReadMultiplyFilesAnonimus();
+            AsyncReadMultiplyFilesAnonimus();
 
 
         }
@@ -27,30 +27,28 @@ namespace AsyncReadCallBack
                                            FileAccess.Read, FileShare.Read, 1024,
                                            FileOptions.Asynchronous);
 
-            fs.BeginRead(staticData, 0, staticData.Length, 
-                ReadIsComplete, //метод обратного вызова (CallBack), будет вызван после завершения чтения
-                fs);// объект который будет передан в этот (CallBack) метод 
+            fs.BeginRead(staticData, 0, staticData.Length, ReadIsComplete, fs);
             Console.ReadLine();
         }
 
         private static void ReadIsComplete(IAsyncResult ar)
         {
             Console.WriteLine("Чтение в потоке {0} закончено",
-               Thread.CurrentThread.ManagedThreadId); 
+               Thread.CurrentThread.ManagedThreadId);
 
-            FileStream fs = (FileStream)ar.AsyncState; 
+            FileStream fs = (FileStream)ar.AsyncState;
 
             Int32 bytesRead = fs.EndRead(ar);
 
             fs.Close();
 
             Console.WriteLine("Количество считаных байт = {0}", bytesRead);
-            Console.WriteLine(Encoding.UTF8.GetString(staticData).Remove(0, 1)); //декодируем и выводим сколько получилось
+            Console.WriteLine(Encoding.UTF8.GetString(staticData).Remove(0, 1));
         }
 
         private static void AsyncReadOneFileCallBackAnonimus()
         {
-            Byte[] data = new Byte[100]; //локальный буфер вместо статического
+            Byte[] data = new Byte[100];
 
             Console.WriteLine("Основной поток ID = {0}",
                Thread.CurrentThread.ManagedThreadId);
@@ -59,7 +57,7 @@ namespace AsyncReadCallBack
                                            FileAccess.Read, FileShare.Read, 1024,
                                            FileOptions.Asynchronous);
 
-            fs.BeginRead(data, 0, data.Length, delegate(IAsyncResult ar) // анонимный метод обратного вызова через делегат
+            fs.BeginRead(data, 0, data.Length, delegate(IAsyncResult ar)
             {
                 Console.WriteLine("Чтение в потоке {0} закончено",
                 Thread.CurrentThread.ManagedThreadId);
@@ -102,9 +100,9 @@ namespace AsyncReadCallBack
         FileStream stream;
         byte[] data;
         IAsyncResult asRes;
-        AsyncBytesReadDel callbackMethod; // делегат для обратного вызова после завершения чтения
+        AsyncBytesReadDel callbackMethod;
 
-        public AsyncCallBackReader(FileStream s, int size, AsyncBytesReadDel meth) //инкапсуляция логики асинхронного чтения
+        public AsyncCallBackReader(FileStream s, int size, AsyncBytesReadDel meth)
         {
             stream = s;
             data = new byte[size];
