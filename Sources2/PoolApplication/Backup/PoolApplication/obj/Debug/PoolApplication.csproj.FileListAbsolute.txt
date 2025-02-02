@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolApplication\Backup\PoolApplication\bin\Debug\PoolApplication.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolApplication\Backup\PoolApplication\bin\Debug\PoolApplication.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolApplication\Backup\PoolApplication\obj\Debug\PoolApplication.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolApplication\Backup\PoolApplication\obj\Debug\PoolApplication.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolApplication\Backup\PoolApplication\obj\Debug\PoolApplication.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolApplication\Backup\PoolApplication\obj\Debug\PoolApplication.pdb
