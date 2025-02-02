@@ -13,7 +13,7 @@ namespace JoinThread
             T.Start();
             Thread.Sleep(200);
             Console.WriteLine("Ожидание завершения работы потока");
-            T.Join(); //основной поток не завершится раньше, чем поток Т
+            T.Join();
             Console.WriteLine("Завершение работы программы");
 
             Console.ReadKey();

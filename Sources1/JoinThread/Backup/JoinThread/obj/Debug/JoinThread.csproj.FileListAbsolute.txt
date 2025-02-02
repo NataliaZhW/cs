@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources1\JoinThread\Backup\JoinThread\bin\Debug\JoinThread.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\JoinThread\Backup\JoinThread\bin\Debug\JoinThread.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources1\JoinThread\Backup\JoinThread\obj\Debug\JoinThread.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\JoinThread\Backup\JoinThread\obj\Debug\JoinThread.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources1\JoinThread\Backup\JoinThread\obj\Debug\JoinThread.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources1\JoinThread\Backup\JoinThread\obj\Debug\JoinThread.pdb
