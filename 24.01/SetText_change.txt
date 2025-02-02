@@ -1,0 +1,10 @@
+public void SetText(string text)
+{
+    /*сохраняем новое значение перпеменной SourceText*/
+    /*если тект пустой и перерисовка окна не делается, передаём пробел, 
+      чтобы окно всё-таки перерисовалось*/
+    if (text == "") SourceText = " ";
+    else SourceText = text;
+    /*инициируем перерисовку окна*/
+    Panel1_Paint(panel1, new PaintEventArgs(panel1.CreateGraphics(), panel1.ClientRectangle));
+}
