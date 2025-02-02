@@ -7,11 +7,7 @@ namespace TimerTest
     {
         static void Main(string[] args)
         {
-            Timer t = new Timer
-                (TimerMethod, //метод который будет вызываться (обратного вызова, то что вызовется в конце)
-                null, //объект, параметр состояния, (здесь - ничего )
-                0, // время ожидания до первого вызова в мс
-                1000); //периодичность вызовов в мс
+            Timer t = new Timer(TimerMethod, null, 0, 1000);
 
             Console.WriteLine("Основной поток {0} продолжается...", Thread.CurrentThread.ManagedThreadId);
             Thread.Sleep(5000);
