@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolRegisterEvent\PoolRegisterEvent\bin\Debug\PoolRegisterEvent.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolRegisterEvent\PoolRegisterEvent\bin\Debug\PoolRegisterEvent.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolRegisterEvent\PoolRegisterEvent\obj\Debug\PoolRegisterEvent.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolRegisterEvent\PoolRegisterEvent\obj\Debug\PoolRegisterEvent.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolRegisterEvent\PoolRegisterEvent\obj\Debug\PoolRegisterEvent.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\PoolRegisterEvent\PoolRegisterEvent\obj\Debug\PoolRegisterEvent.pdb

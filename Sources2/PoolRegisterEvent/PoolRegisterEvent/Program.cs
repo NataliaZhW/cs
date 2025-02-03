@@ -8,11 +8,12 @@ namespace PoolRegisterEvent
         static void Main(string[] args)
         {
             AutoResetEvent are = new AutoResetEvent(false);
-            RegisteredWaitHandle rwh = ThreadPool.RegisterWaitForSingleObject(are, // Ожидать этот объект AutoResetEvent. 
-                                                                                EventOperation, // Выполнить обратный вызов этого метода. 
-                                                                                null, // Передать null в качестве параметра EventOperation. 
-                                                                                5000, // Ждать освобождения 5 секунд. 
-                                                                                false); // Вызывать EventOperation при каждом освобождении. 
+            RegisteredWaitHandle rwh = ThreadPool.RegisterWaitForSingleObject
+                (are, // Ожидать этот объект AutoResetEvent. 
+                EventOperation, // Выполнить обратный вызов этого метода. 
+                null, // Передать null в качестве параметра EventOperation. 
+                5000, // Ждать освобождения 5 секунд. 
+                false); // Вызывать EventOperation при каждом освобождении. 
             char operation;
             Console.WriteLine("S=Signal, Q=Quit?");
             do
