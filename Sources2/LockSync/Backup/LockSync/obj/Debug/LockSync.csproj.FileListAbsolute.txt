@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources2\LockSync\Backup\LockSync\bin\Debug\LockSync.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\LockSync\Backup\LockSync\bin\Debug\LockSync.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources2\LockSync\Backup\LockSync\obj\Debug\LockSync.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\LockSync\Backup\LockSync\obj\Debug\LockSync.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\LockSync\Backup\LockSync\obj\Debug\LockSync.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\LockSync\Backup\LockSync\obj\Debug\LockSync.pdb
