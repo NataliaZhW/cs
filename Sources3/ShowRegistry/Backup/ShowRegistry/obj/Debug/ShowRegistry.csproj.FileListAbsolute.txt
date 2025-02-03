@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources3\ShowRegistry\Backup\ShowRegistry\bin\Debug\ShowRegistry.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources3\ShowRegistry\Backup\ShowRegistry\bin\Debug\ShowRegistry.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources3\ShowRegistry\Backup\ShowRegistry\obj\Debug\ShowRegistry.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources3\ShowRegistry\Backup\ShowRegistry\obj\Debug\ShowRegistry.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources3\ShowRegistry\Backup\ShowRegistry\obj\Debug\ShowRegistry.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources3\ShowRegistry\Backup\ShowRegistry\obj\Debug\ShowRegistry.pdb
