@@ -1,0 +1,6 @@
+D:\WindowsApp\Documents\GitHub\cs\Sources2\EventSync\EventSync\bin\Debug\EventSync.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\EventSync\EventSync\bin\Debug\EventSync.pdb
+D:\WindowsApp\Documents\GitHub\cs\Sources2\EventSync\EventSync\obj\Debug\EventSync.csproj.AssemblyReference.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\EventSync\EventSync\obj\Debug\EventSync.csproj.CoreCompileInputs.cache
+D:\WindowsApp\Documents\GitHub\cs\Sources2\EventSync\EventSync\obj\Debug\EventSync.exe
+D:\WindowsApp\Documents\GitHub\cs\Sources2\EventSync\EventSync\obj\Debug\EventSync.pdb
