@@ -106,7 +106,7 @@
             textBoxOutput.ReadOnly = true;
             textBoxOutput.ScrollBars = ScrollBars.Vertical;
             textBoxOutput.Size = new Size(110, 124);
-            textBoxOutput.TabIndex = 17;
+            textBoxOutput.TabIndex = 6;
             // 
             // Form1
             // 

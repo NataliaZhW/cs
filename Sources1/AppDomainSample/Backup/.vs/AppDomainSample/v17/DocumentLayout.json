@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CAB11A82-5417-4993-BDA5-B17A677972E1}|TextDrawer\\TextDrawer.csproj|D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\textdrawer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CAB11A82-5417-4993-BDA5-B17A677972E1}|TextDrawer\\TextDrawer.csproj|solutionrelative:textdrawer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B75F2F47-5DD2-4A26-8F2C-ADC3FDCFF54C}|TextWindow\\TextWindow.csproj|D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\textwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B75F2F47-5DD2-4A26-8F2C-ADC3FDCFF54C}|TextWindow\\TextWindow.csproj|solutionrelative:textwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2C025957-C6FC-499A-9426-89C50F2594A3}|AppDomainSample\\AppDomainSample.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\appdomainsample\\backup\\appdomainsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C025957-C6FC-499A-9426-89C50F2594A3}|AppDomainSample\\AppDomainSample.csproj|solutionrelative:appdomainsample\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CAB11A82-5417-4993-BDA5-B17A677972E1}|TextDrawer\\TextDrawer.csproj|D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\textdrawer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{CAB11A82-5417-4993-BDA5-B17A677972E1}|TextDrawer\\TextDrawer.csproj|solutionrelative:textdrawer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{CAB11A82-5417-4993-BDA5-B17A677972E1}|TextDrawer\\TextDrawer.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\appdomainsample\\backup\\textdrawer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CAB11A82-5417-4993-BDA5-B17A677972E1}|TextDrawer\\TextDrawer.csproj|solutionrelative:textdrawer\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B75F2F47-5DD2-4A26-8F2C-ADC3FDCFF54C}|TextWindow\\TextWindow.csproj|d:\\windowsapp\\documents\\github\\cs\\sources1\\appdomainsample\\backup\\textwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B75F2F47-5DD2-4A26-8F2C-ADC3FDCFF54C}|TextWindow\\TextWindow.csproj|solutionrelative:textwindow\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -66,51 +66,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\TextDrawer\\Form1.cs",
-              "RelativeDocumentMoniker": "TextDrawer\\Form1.cs",
-              "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\TextDrawer\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "TextDrawer\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-05T13:34:30.331Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\AppDomainSample\\Program.cs",
               "RelativeDocumentMoniker": "AppDomainSample\\Program.cs",
               "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\AppDomainSample\\Program.cs",
               "RelativeToolTip": "AppDomainSample\\Program.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowBwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T11:30:58.86Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\TextWindow\\Form1.cs",
               "RelativeDocumentMoniker": "TextWindow\\Form1.cs",
               "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\TextWindow\\Form1.cs",
               "RelativeToolTip": "TextWindow\\Form1.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAASwBYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAIA9wBYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T11:25:02.625Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\TextDrawer\\Form1.cs",
               "RelativeDocumentMoniker": "TextDrawer\\Form1.cs",
               "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\Sources1\\AppDomainSample\\Backup\\TextDrawer\\Form1.cs",
               "RelativeToolTip": "TextDrawer\\Form1.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAIAwwBsAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowCgAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T11:20:24.815Z",
               "EditorCaption": ""
