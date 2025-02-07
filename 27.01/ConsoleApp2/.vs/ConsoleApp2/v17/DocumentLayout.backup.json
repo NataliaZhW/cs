@@ -14,11 +14,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",
@@ -60,7 +64,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\WindowsApp\\Documents\\GitHub\\cs\\27.01\\ConsoleApp2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-20T13:56:50.144Z",
               "EditorCaption": ""
