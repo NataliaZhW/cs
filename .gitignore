@@ -48,3 +48,7 @@ Sources1/AppDomainSample/.vs/AppDomainSample/FileContentIndex/e30ed637-1d7f-4870
 24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/6153b9c9-57d0-45cb-a127-b08301ab7b1b.vsidx
 24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/689a2650-d8a4-4fd0-875c-3352f092f142.vsidx
 /Системное/07.02/WinFormsApp3/.vs/ProjectEvaluation/winformsapp3.metadata.v9.bin
+*.vsidx
+/.gitignore
+/.gitignore
+/.gitignore
