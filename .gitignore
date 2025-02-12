@@ -49,3 +49,8 @@ Sources2/OneInstanceApp/.vs/OneInstanceApp/FileContentIndex/fd325670-b6e6-4fc7-a
 Sources1/AppDomainSample/.vs/AppDomainSample/FileContentIndex/e30ed637-1d7f-4870-b264-ca61efbcd494.vsidx
 24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/6153b9c9-57d0-45cb-a127-b08301ab7b1b.vsidx
 24.01/WinFormsApp2/.vs/WinFormsApp2/FileContentIndex/689a2650-d8a4-4fd0-875c-3352f092f142.vsidx
+*.suo
+*.json
+*.sln
+*.wsuo
+/.vs/slnx.sqlite
