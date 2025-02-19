@@ -4,104 +4,107 @@ using System.Net.Http.Headers;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
+using System.Net.Http;
+using System.Threading.Tasks;
+using HtmlAgilityPack;
+using System.Reflection.Metadata;
+using System.Text.Encodings.Web;
+
+/*
+Создайте консольное приложение, которое позволит, 
+отобразить 100 самых популярных книг из библиотеки 
+Гуттенберга. По нажатию наназвание книги нужно отобразить
+ текст этой книги
+*/
 
 namespace TestVSCode
 {
     class Program
     {
+        static async Task Main(string[] args)
+        {
+            List<Book> books = await FetchPopularBooksAsync();
 
-        static string infoMessage = "infoMessage";
-        static string wariningMessage = "wariningMessage";
-        static string urgentMessage = "urgentMessage";
-        static Dictionary<Socket, List<MessageType>> clientSubscriptions = new Dictionary<Socket, List<MessageType>>();
-        enum MessageType 
-        {
-            Information,
-            Warning,
-            Urgent
-        }
-        static List<Socket> clients = new List<Socket>();
-        static int interval = 5000;
-        static void Main(string[] args)
-        {
-            Socket listenerSocket = new Socket(AddressFamily.InterNetwork,SocketType.Dgram, ProtocolType.Udp);
-            IPEndPoint localEndPoint = new IPEndPoint(IPAddress.Any, 4567);
-            listenerSocket.Bind(localEndPoint);
-            Console.WriteLine("server started");
-            Thread clienListenerThread = new Thread (() =>
+            Console.WriteLine("100");
+            for (int i = 0; i < books.Count; i++)
             {
-                while (true)
-                {
-                    Socket clientSocket = listenerSocket.Accept();
-                    List<MessageType> subscription = new List<MessageType> { MessageType.Information, MessageType.Warning};
-                    SubscribeClient(clientSocket, subscription);
-                    Console.WriteLine("client subscribed");
-                    SendMessageToClient(clientSocket, infoMessage);
-                    SendMessageToClient(clientSocket, wariningMessage);
-                    SendUrgentMessage(urgentMessage);
-                }
-            });
-            clienListenerThread.Start();
-            while (true)
+                Console.WriteLine($"{i + 1}. {books[i].Title}");
+            }
+            Console.WriteLine("Введите номер книги для получения текста:");
+            string input = Console.ReadLine();
+
+            while (input.ToLower() != "exit")
             {
-                Console.WriteLine("clientSocket to remove or exit");
-                string input = Console.ReadLine();
-                if (input == "exit")
+                if (int.TryParse(input, out int bookNumber) && bookNumber > 0 && bookNumber <= books.Count)
                 {
-                    break;
-                }
-                if (RemoveClintFromSubscription(input))
-                {
-                    Console.WriteLine("client removed");
+                    string bookText = await DownloadBookTextAsync(books[bookNumber - 1].Url);
+                    Console.Clear();
+                    Console.WriteLine($"текст {books[bookNumber - 1].Title}\n");
+                    Console.WriteLine(bookText);
+
                 }
                 else{
-                    Console.WriteLine("client not found");
+                    Console.WriteLine("Неверный ввод! Введите номер книги или exit:");
                 }
-
+                Console.WriteLine("Введите номер книги для получения текста:");
+                input = Console.ReadLine();
             }
-        
         }
-        static bool RemoveClintFromSubscription(string clientAddress)
+
+        private static async Task<List<Book>> FetchPopularBooksAsync()
         {
-            foreach (var client in clientSubscriptions.Keys)
+            string url = "http://www.gutenberg.org/ebooks/bookshelf/13";
+            List<Book> bookList = new List<Book>();
+
+            using (HttpClient client = new HttpClient())
             {
-                IPEndPoint clientEndPoint = (IPEndPoint)client.RemoteEndPoint;
-                if (clientEndPoint.Address.ToString() == clientAddress)
+                try 
                 {
-                    clientSubscriptions.Remove(client);
-                    client.Close();
-                    return true;
+                    string html = await client.GetStringAsync(url);
+                    HtmlDocument document = new HtmlDocument();
+                    document.LoadHtml(html);
+
+                    var bookNodes = document.DocumentNode.SelectNodes("//li[@class='booklink']");
+                    if (bookNodes != null)
+                    {
+                        foreach (var bookNode in bookNodes)
+                        {
+                            var linkNode = bookNode.SelectSingleNode(".//a[@class='link']");
+                            
+                            if (linkNode!= null)
+                            {
+                                string title = HtmlEntity.DeEntitize(linkNode.SelectSingleNode(".//span[@class='title']").InnerText.Trim());
+                                string relativeUrl = linkNode.GetAttributeValue("href", "");
+                                string absoluteUrl = $"http://www.gutenberg.org{relativeUrl}";
+                                bookList.Add(new Book { Title = title, Url = absoluteUrl });
+                            }
+                        }
+                    }
+                }
+                catch (HttpRequestException ex)
+                {
+                    Console.WriteLine($"Error fetching popular books: {ex.Message}");
                 }
             }
-            return false;
+            //return bookList.OrderByDescending(b => b.Title).Take(100).ToList();
+            return bookList;
         }
-        
-        static void SendMessageToClient(Socket clientSocket, string message)
+        private static async Task<string> DownloadBookTextAsync(string url)
         {
-            List<MessageType> subsctiptions = clientSubscriptions[clientSocket];
-            if (message == "urgentMessage" || subsctiptions.Contains(MessageType.Information))
+            using (HttpClient client = new HttpClient())
             {
-                byte[] messageBytes = Encoding.Default.GetBytes(message);
-                clientSocket.Send(messageBytes);
-                Console.WriteLine($"sent message {message} to client");
+                HttpResponseMessage response = await client.GetAsync(url);
+                response.EnsureSuccessStatusCode();
+                string bookText = await response.Content.ReadAsStringAsync();
+                return bookText;
             }
         }
 
-        static void SubscribeClient(Socket clientSocket, List<MessageType> subsctiptionTypes)
+        class Book
         {
-            clientSubscriptions[clientSocket] = subsctiptionTypes;
+            public string Title { get; set; }
+            public string Url { get; set; }
         }
-
-        static void SendUrgentMessage(string urgentMessage)
-        {
-            byte[] messageBytes = Encoding.Default.GetBytes(urgentMessage);
-
-            foreach (var clint in clientSubscriptions.Keys)
-            {
-                clint.Send(messageBytes);
-            }
-            Console.WriteLine("Sent urgent message for all");
-        }
-            
+    
     }
-}
+ }
