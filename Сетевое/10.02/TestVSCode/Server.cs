@@ -1,110 +1,117 @@
 ﻿using System;
-using System.Net;
-using System.Net.Http.Headers;
-using System.Net.Sockets;
 using System.Text;
-using System.Threading;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading.Tasks;
 using HtmlAgilityPack;
-using System.Reflection.Metadata;
-using System.Text.Encodings.Web;
-
-/*
-Создайте консольное приложение, которое позволит, 
-отобразить 100 самых популярных книг из библиотеки 
-Гуттенберга. По нажатию наназвание книги нужно отобразить
- текст этой книги
-*/
+using System.Web;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.Net;
+using System.IO;
 
 namespace TestVSCode
 {
     class Program
-    {
+    {     
         static async Task Main(string[] args)
         {
-            List<Book> books = await FetchPopularBooksAsync();
+            string url = "https://www.gutenberg.org/";
+            string searchText = "book";
+            int maxTimeSeconds = 10;
+            int maxConcurrency = 5;
 
-            Console.WriteLine("100");
-            for (int i = 0; i < books.Count; i++)
+            var cts = new CancellationTokenSource(TimeSpan.FromSeconds(maxTimeSeconds));
+            var semaphore = new SemaphoreSlim(maxConcurrency);
+            var urlsToParse = new List<string> { url };
+            var results = new List<string>();
+            Console.WriteLine(" + для добавления, - для удаления, c - cansel");
+            var tasks = new List<Task>();
+            while (urlsToParse.Count > 0 || tasks.Count > 0)
             {
-                Console.WriteLine($"{i + 1}. {books[i].Title}");
-            }
-            Console.WriteLine("Введите номер книги для получения текста:");
-            string input = Console.ReadLine();
-
-            while (input.ToLower() != "exit")
-            {
-                if (int.TryParse(input, out int bookNumber) && bookNumber > 0 && bookNumber <= books.Count)
+                if (urlsToParse.Count > 0  && semaphore.CurrentCount > 0)
                 {
-                    string bookText = await DownloadBookTextAsync(books[bookNumber - 1].Url);
-                    Console.Clear();
-                    Console.WriteLine($"текст {books[bookNumber - 1].Title}\n");
-                    Console.WriteLine(bookText);
-
+                    var currentUrl = urlsToParse[0];
+                    urlsToParse.RemoveAt(0);
+                    tasks.Add(ParseUrlAsync(currentUrl, semaphore, cts.Token, results));
+                    Console.WriteLine($"Парсинг {currentUrl}");
                 }
-                else{
-                    Console.WriteLine("Неверный ввод! Введите номер книги или exit:");
-                }
-                Console.WriteLine("Введите номер книги для получения текста:");
-                input = Console.ReadLine();
-            }
-        }
-
-        private static async Task<List<Book>> FetchPopularBooksAsync()
-        {
-            string url = "http://www.gutenberg.org/ebooks/bookshelf/13";
-            List<Book> bookList = new List<Book>();
-
-            using (HttpClient client = new HttpClient())
-            {
-                try 
+                var key = Console.ReadKey(true);
+                switch (key.KeyChar.ToString().ToLower())
                 {
-                    string html = await client.GetStringAsync(url);
-                    HtmlDocument document = new HtmlDocument();
-                    document.LoadHtml(html);
-
-                    var bookNodes = document.DocumentNode.SelectNodes("//li[@class='booklink']");
-                    if (bookNodes != null)
-                    {
-                        foreach (var bookNode in bookNodes)
+                    case "+":
+                        if (maxConcurrency < 10)
                         {
-                            var linkNode = bookNode.SelectSingleNode(".//a[@class='link']");
-                            
-                            if (linkNode!= null)
-                            {
-                                string title = HtmlEntity.DeEntitize(linkNode.SelectSingleNode(".//span[@class='title']").InnerText.Trim());
-                                string relativeUrl = linkNode.GetAttributeValue("href", "");
-                                string absoluteUrl = $"http://www.gutenberg.org{relativeUrl}";
-                                bookList.Add(new Book { Title = title, Url = absoluteUrl });
-                            }
+                            maxConcurrency++;
+                            semaphore.Release();
+                            Console.WriteLine($"Max concurrency increased to {maxConcurrency}");
                         }
-                    }
+                        break;
+                    case "-":
+                        if (maxConcurrency > 1)
+                        {
+                            maxConcurrency--;
+                            Console.WriteLine($"concurrency decreased to {maxConcurrency}");
+                        }
+                        break;
+                    case "c":
+                        cts.Cancel();
+                        Console.WriteLine("Cancelling.");
+                        return;
+                    default:
+                        break;
                 }
-                catch (HttpRequestException ex)
-                {
-                    Console.WriteLine($"Error fetching popular books: {ex.Message}");
-                }
+                await Task.Delay(100);
             }
-            //return bookList.OrderByDescending(b => b.Title).Take(100).ToList();
-            return bookList;
-        }
-        private static async Task<string> DownloadBookTextAsync(string url)
-        {
-            using (HttpClient client = new HttpClient())
-            {
-                HttpResponseMessage response = await client.GetAsync(url);
-                response.EnsureSuccessStatusCode();
-                string bookText = await response.Content.ReadAsStringAsync();
-                return bookText;
-            }
-        }
 
-        class Book
-        {
-            public string Title { get; set; }
-            public string Url { get; set; }
+            foreach (var result in results)
+            {
+                if (result.Contains(searchText))
+                {
+                    Console.WriteLine("Text found on the page.");
+                    int index = result.IndexOf(searchText);
+                    int fragmentStart = Math.Max(0, index - 50);
+                    int fragmentEnd = Math.Min(100, result.Length - fragmentStart);
+                    string fragment = result.Substring(fragmentStart, fragmentEnd);
+                    Console.WriteLine($"Fragment: {fragment}");
+                }
+                else
+                {
+                    Console.WriteLine("Text not found on the page.");
+                }
+            }
         }
-    
+        
+        static async Task ParseUrlAsync(string url, SemaphoreSlim semaphore, CancellationToken cancellationToken, List<string> results)
+        {
+            await semaphore.WaitAsync(cancellationToken);
+            try
+            {
+                using var httpClient = new HttpClient();
+                var response = await httpClient.GetAsync(url, cancellationToken);
+                if (response.IsSuccessStatusCode)
+                {
+                    var html = await response.Content.ReadAsByteArrayAsync(cancellationToken);
+                    var htmlString = Encoding.UTF8.GetString(html);
+                    results.Add(htmlString);
+                }
+                else
+                {
+                    Console.WriteLine($"Failed to get page: {url} - {response.StatusCode}");
+                }
+            }
+            catch (OperationCanceledException ex)
+            {
+                Console.WriteLine($"Task cancelled: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
+            finally
+            {
+                semaphore.Release();
+            }
+        }
     }
- }
+}
